@@ -1,7 +1,6 @@
 import React from 'react'
 import { FlutterIcon, YoutubeIcon } from './svgs'
 import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Main() {
     return (
@@ -22,8 +21,8 @@ export default function Main() {
                             Youtuber
                         </h3>
                         <div className="mt-5">
-                            <Link href={'#project'} className="bg-white rounded-md primary-color font-bold px-5 py-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-                                <span className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">My Work</span></Link>
+                            <a href='#project' className="bg-white rounded-md primary-color font-bold px-5 py-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+                                <span className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">My Work</span></a>
                         </div>
                     </div>
                 </div>
